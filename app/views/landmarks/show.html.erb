@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @landmark.name %>
+</p>
+
+<p>
+  <b>Trip:</b>
+  <%= @landmark.trip_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_landmark_path(@landmark) %> |
+<%= link_to 'Back', landmarks_path %>
